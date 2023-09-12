@@ -1,0 +1,15 @@
+.container__articles {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row; /*em linha*/
+
+  justify-content: center;
+}
+
+/* conf os small-cards */
+header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}

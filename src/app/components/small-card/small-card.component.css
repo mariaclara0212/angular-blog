@@ -1,0 +1,35 @@
+.container__small-card {
+  /* border: 1px solid white; */
+  width: 700px;
+
+  /* para não desalinhar com o big-card -> margin somente em baixo */
+  margin-bottom: 15px;
+}
+
+.container__small-card-content {
+  /* alinhando elementos em linha - ao lado do outro */
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__photo > img {
+  width: 200px;
+
+  /* largura mínima da imagem */
+  min-width: 200px;
+
+  margin-right: 20px;
+}
+
+.small-card__title {
+
+  /* centralizando o título */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container__small-card__separator {
+  margin-top: 10px;
+}
