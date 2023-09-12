@@ -4,6 +4,7 @@
 
   /* para não desalinhar com o big-card -> margin somente em baixo */
   margin-bottom: 15px;
+  margin-left: 20px;
 }
 
 .container__small-card-content {

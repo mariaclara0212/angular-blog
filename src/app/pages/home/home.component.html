@@ -10,13 +10,30 @@
 <div class="container__articles">
   <div class="articles__main">
 
-    <app-big-card></app-big-card>
+    <!-- passando a foto no componente -->
+    <app-big-card
+    photoCover="https://media3.s-nbcnews.com/i/MSNBC/Components/Photo/_new/100506-ironman2-hmed.jpg"
+    cardTitle="NOVO HOMEM DE FERRO EM 3D"
+    cardDescription="Marvel Studios anuncia novo filme do Homem de Ferro."
+    ></app-big-card>
 
   </div>
 
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+
+    <app-small-card
+      cardTitle="Nova Série Anunciada no Disney Plus"
+      photCover="https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+    ></app-small-card>
+
+    <app-small-card
+    cardTitle="Novo Filme do Pantera Negra Será Lançado em Breve"
+    photCover="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/pantera-negra-1.webp?fit=1920%2C1080&ssl=1"
+    ></app-small-card>
+
+    <app-small-card
+    cardTitle="Novo Filme dos X-men está em Pós Produção, afirma diretor"
+    photCover="https://i0.wp.com/heroisx.com/wp-content/uploads/2016/05/X-Men-Apocalypse-poster-elenco.jpg"
+    ></app-small-card>
   </div>
 </div>
